@@ -10,10 +10,10 @@
 <h3 align="center">Auto-generate docs from code. Detect drift. Keep docs alive.</h3>
 
 <p align="center">
-  <a href="https://docsync.pages.dev">Website</a> &middot;
+  <a href="https://docsync-1q4.pages.dev">Website</a> &middot;
   <a href="#quick-start">Quick Start</a> &middot;
   <a href="#how-it-works">How It Works</a> &middot;
-  <a href="https://docsync.pages.dev/#pricing">Pricing</a>
+  <a href="https://docsync-1q4.pages.dev/#pricing">Pricing</a>
 </p>
 
 ---
@@ -118,4 +118,4 @@ PRs welcome! See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 MIT — free to use, modify, and distribute.
 
-The DocSync skill scripts are MIT licensed. Premium features (drift detection, hooks, auto-fix) require a [license key](https://docsync.pages.dev/#pricing).
+The DocSync skill scripts are MIT licensed. Premium features (drift detection, hooks, auto-fix) require a [license key](https://docsync-1q4.pages.dev/#pricing).

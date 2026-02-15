@@ -1,7 +1,7 @@
 ---
 name: docsync
 description: Auto-generate docs from code and detect documentation drift via git hooks. Free README gen + paid living docs.
-homepage: https://docsync.pages.dev
+homepage: https://docsync-1q4.pages.dev
 metadata:
   {
     "openclaw": {
@@ -170,7 +170,7 @@ Users can configure DocSync in `~/.openclaw/openclaw.json`:
 ## Important Notes
 
 - **Free tier** works immediately with no configuration
-- **Pro/Team tiers** require a license key from https://docsync.pages.dev
+- **Pro/Team tiers** require a license key from https://docsync-1q4.pages.dev
 - All processing happens **locally** — no code is sent to external servers
 - License validation is **offline** — no network calls needed
 - Git hooks use **lefthook** which must be installed (see install metadata above)
@@ -180,7 +180,7 @@ Users can configure DocSync in `~/.openclaw/openclaw.json`:
 
 - If tree-sitter is not installed, fall back to regex-based symbol extraction (less accurate but functional)
 - If lefthook is not installed and user tries `hooks install`, prompt to install it
-- If license key is invalid or expired, show clear message with link to https://docsync.pages.dev/renew
+- If license key is invalid or expired, show clear message with link to https://docsync-1q4.pages.dev/renew
 - If a language grammar is not available, skip that file with a warning
 
 ## When to Use DocSync

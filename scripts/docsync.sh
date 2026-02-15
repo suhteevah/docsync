@@ -37,7 +37,7 @@ log_error()   { echo -e "${RED}[DocSync]${NC} $*" >&2; }
 show_version() {
   echo -e "${BOLD}DocSync${NC} v${VERSION}"
   echo "  Living documentation for your codebase"
-  echo "  https://docsync.pages.dev"
+  echo "  https://docsync-1q4.pages.dev"
 }
 
 show_help() {
@@ -64,7 +64,7 @@ show_help() {
   echo "  --help, -h                Show this help"
   echo "  --version, -v             Show version"
   echo ""
-  echo "Get a license at ${CYAN}https://docsync.pages.dev${NC}"
+  echo "Get a license at ${CYAN}https://docsync-1q4.pages.dev${NC}"
 }
 
 # ─── License check ──────────────────────────────────────────────────────────

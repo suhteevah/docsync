@@ -135,7 +135,7 @@ check_license() {
     echo ""
     echo -e "This feature requires a ${BOLD}${required_tier}${NC} license."
     echo ""
-    echo -e "Get your license at: ${CYAN}${BOLD}https://docsync.pages.dev/pricing${NC}"
+    echo -e "Get your license at: ${CYAN}${BOLD}https://docsync-1q4.pages.dev/pricing${NC}"
     echo ""
     echo "Then add it to your config:"
     echo ""
@@ -152,7 +152,7 @@ check_license() {
   local payload
   if ! payload=$(decode_jwt_payload "$key"); then
     echo -e "${RED}[DocSync]${NC} Invalid license key format."
-    echo -e "Get a valid license at: ${CYAN}https://docsync.pages.dev/pricing${NC}"
+    echo -e "Get a valid license at: ${CYAN}https://docsync-1q4.pages.dev/pricing${NC}"
     return 1
   fi
 
@@ -168,7 +168,7 @@ check_license() {
     echo -e "${RED}[DocSync]${NC} This feature requires ${BOLD}$required_tier${NC} tier."
     echo -e "Your current tier: ${BOLD}$tier${NC}"
     echo ""
-    echo -e "Upgrade at: ${CYAN}https://docsync.pages.dev/upgrade${NC}"
+    echo -e "Upgrade at: ${CYAN}https://docsync-1q4.pages.dev/upgrade${NC}"
     return 1
   fi
 
@@ -180,7 +180,7 @@ check_license() {
       local expiry_date
       expiry_date=$(date -d "@$expiry" +%Y-%m-%d 2>/dev/null || date -r "$expiry" +%Y-%m-%d 2>/dev/null || echo "unknown")
       echo -e "${RED}[DocSync]${NC} License expired on ${BOLD}$expiry_date${NC}."
-      echo -e "Renew at: ${CYAN}https://docsync.pages.dev/renew${NC}"
+      echo -e "Renew at: ${CYAN}https://docsync-1q4.pages.dev/renew${NC}"
       return 1
     fi
   fi
@@ -196,7 +196,7 @@ show_license_status() {
   if ! key=$(get_license_key) || [[ -z "$key" ]]; then
     echo -e "License: ${YELLOW}Free tier${NC}"
     echo -e "  Available commands: generate"
-    echo -e "  Upgrade at: ${CYAN}https://docsync.pages.dev/pricing${NC}"
+    echo -e "  Upgrade at: ${CYAN}https://docsync-1q4.pages.dev/pricing${NC}"
     return
   fi
 
