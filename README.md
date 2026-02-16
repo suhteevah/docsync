@@ -119,3 +119,13 @@ PRs welcome! See [CONTRIBUTING.md](CONTRIBUTING.md).
 MIT — free to use, modify, and distribute.
 
 The DocSync skill scripts are MIT licensed. Premium features (drift detection, hooks, auto-fix) require a [license key](https://docsync-1q4.pages.dev/#pricing).
+
+---
+
+## Support This Project
+
+If you find this project useful, consider buying me a coffee! Your support helps me keep building and sharing open-source tools.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z61UCUI7)
+
+Every donation, no matter how small, is greatly appreciated and motivates continued development. Thank you!
